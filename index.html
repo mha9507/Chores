@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>DoYourChores!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="w3-top w3-black w3-padding w3-bar">
+    <span class="w3-bar-item w3-large">DoYourChores!</span>
+    <div class="w3-right w3-hide-small">
+      <a href="#comic" class="w3-bar-item w3-button">Comic</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#authors" class="w3-bar-item w3-button">Authors</a>
+    </div>
+  </div>
+<section id="comic" class="w3-container w3-padding-64 about-section">
+  <div class="w3-content w3-center">
+    <h2>Comic Flow</h2>
+
+    <!-- Comic Display Box -->
+    <div id="comic-box" class="comic-box">
+      <img id="comic-image" src="" alt="Comic Panel" />
+      <button id="startBtn">Start</button>
+    </div>
+
+    <!-- Controls Below the Comic -->
+    <div id="comic-controls" style="margin-top: 20px;">
+      <button id="prevBtn" style="display: none;">Previous</button>
+      <button id="nextBtn" style="display: none;">Next</button>
+
+      <div id="decisionBtns" style="display: none;">
+        <button id="yesBtn">Yes</button>
+        <button id="noBtn">No</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <section id="about" class="w3-container w3-padding-64 about-section">
+    <div class="w3-row-padding">
+      <div class="w3-half">
+        <h2>About</h2>
+        <h4>subtitle</h4>
+        <p>DoYourChoresFirst! is a short comic about a phone-obsessed teen, a crafty grandma, and one tricky Wi-Fi password.
+          When Bob visits his cookie-baking grandmother, all he wants is internet access — but she has other plans.</p>
+        <p>After a full day of chores, Bob learns the password was Doyourchoresfirst all along. A funny, feel-good reminder to never
+          underestimate Grandma.</p>
+        <button class="w3-button w3-black w3-margin-top">Read Documentation</button>
+      </div>
+      <div class="w3-half w3-center">
+        <div class="image-placeholder w3-card w3-padding-32">Image Placeholder</div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="authors" class="w3-container w3-light-grey w3-padding-64 w3-center">
+    <h2>The Team Behind the Comic</h2>
+    <div class="w3-row-padding w3-margin-top">
+      <div class="w3-third">
+        <div class="w3-card w3-padding">
+          <div class="profile-placeholder">Image</div>
+          <h3>Author One</h3>
+          <p>author1@example.com</p>
+        </div>
+      </div>
+      <div class="w3-third">
+        <div class="w3-card w3-padding">
+          <div class="profile-placeholder">Image</div>
+          <h3>Author Two</h3>
+          <p>author2@example.com</p>
+        </div>
+      </div>
+      <div class="w3-third">
+        <div class="w3-card w3-padding">
+          <div class="profile-placeholder">Image</div>
+          <h3>Author Three</h3>
+          <p>author3@example.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
